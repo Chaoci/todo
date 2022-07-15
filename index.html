@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
+  <title>TODO</title>
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -14,7 +14,18 @@
   todo list
   </header>
 
-  <%- contents %>
+  
+<h1>TODOs</h1>
+    <form id="form">
+        <input type="text" id="input" class="input" placeholder="Enter your TODO" autocomplete="off">
+        <ul class="todos" id="todos">
+        </ul>
+        <div class="tips">
+            <small> right click to delet</small>
+            <small> left click to mark</small>
+        </div>
+    </form>
+
 
   <footer class="footer">
     edit by Charlie
