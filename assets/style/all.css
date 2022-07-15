@@ -62,9 +62,6 @@ form {
     font-size: 24px;
     padding: 1rem 2rem;
     cursor: pointer; }
-    .todos li li.completed {
-      color: #bfbebe;
-      text-decoration: line-through; }
 
 small {
   margin: 0 auto;
@@ -77,5 +74,9 @@ small {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.completed {
+  color: #bfbebe;
+  text-decoration: line-through; }
 
 /*# sourceMappingURL=all.css.map */
